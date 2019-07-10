@@ -2,74 +2,92 @@
 <html>
 <head>
 	<title>Youtube Clone</title>
-	<link rel="stylesheet" type="text/css" href="teste.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<script type="text/javascript" src="script.js"></script>
 	<link rel="shortcut icon" type="image/png" href="https://ui-ex.com/images/youtube-vector-favicon.png"/>
 </head>
 <body>
-<!--nav-bar-------------------------------------------------------->
-<div class="nav-bar">
-	<div class= "left-icons">
-		<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAM1BMVEX///8AAAD6+vru7u4fHx9WVlbW1tZLS0tAQEDc3Nzw8PA4ODgYGBg7OztSUlJ2dnZGRkZwAXvvAAAAwElEQVR4nO3bOQ6DUBBEQbxg9uX+pyX9gQMLaZhvVHWDF7e6aQAAAAAAAAAAAAAAAACAMMOnHkNI4fKoxxJS2GVnFTqFChWmU6hQYT6FCr/bs7MKe0jhtra1WLeQQgAAAAAA4F88axJSOGUPToUppPD++6HCKylUqDCfQoUK8yk8p8/OKvQhhQAAAAAAALVo53ct5jak8P7rmsIrKVSoMJ9ChQrzKTzn/m+E8VWPMaQQAAAAAAAAAAAAAAAAAH5yAE59I2n/9GD6AAAAAElFTkSuQmCC" width=30px height=30px>
-		<img src="http://cdn.iphonehacks.com/wp-content/uploads/2017/08/YouTube-logo-2017.png" width= 120px height= 65px>
+  <!--nav-bar-------------------------------------------------------->
+	<div class="nav-bar">
+		<div class= "left-icons">
+			<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAM1BMVEX///8AAAD6+vru7u4fHx9WVlbW1tZLS0tAQEDc3Nzw8PA4ODgYGBg7OztSUlJ2dnZGRkZwAXvvAAAAwElEQVR4nO3bOQ6DUBBEQbxg9uX+pyX9gQMLaZhvVHWDF7e6aQAAAAAAAAAAAAAAAACAMMOnHkNI4fKoxxJS2GVnFTqFChWmU6hQYT6FCr/bs7MKe0jhtra1WLeQQgAAAAAA4F88axJSOGUPToUppPD++6HCKylUqDCfQoUK8yk8p8/OKvQhhQAAAAAAALVo53ct5jak8P7rmsIrKVSoMJ9ChQrzKTzn/m+E8VWPMaQQAAAAAAAAAAAAAAAAAH5yAE59I2n/9GD6AAAAAElFTkSuQmCC" width=30px height=30px>
+			<img src="http://cdn.iphonehacks.com/wp-content/uploads/2017/08/YouTube-logo-2017.png" width= 120px height= 65px>
+		</div>
+		<div class="search">
+		       <form action="#">
+	                <input type="text" placeholder="Search" name="search">
+	                <button type="submit">
+	                    <svg>
+	                        <path
+	                            d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">
+	                        </path>
+	                    </svg>
+	                </button>
+	            </form>
+	    </div>
+		<div class="right-icons">
+			<img class= "icons" src="icons/add.jpg" width= "20px" height="20px">
+			<img class= "icons" src="icons/more.jpg" width= "20px" height="20px">
+			<img class= "icons" src="icons/messages.jpg" width= "20px" height="20px">
+			<img class= "icons" src="icons/notification.jpg" width= "20px" height="20px">	
+		</div>
+	<!--contents--------------------------------------------------------> 
+	<!--left-content--------------------------------------------------------->   
+	<div id="content">
+		<div id="left-content">
+	        <iframe width="790" height="430" src="https://www.youtube.com/embed/1xiU5bkuGnM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	        <p class="title-video">Alphabet Song | A to Z for Children | Collection of Kindergarten Songs</p> <br>
+	        <div class="likes">
+	            <p>262,000 views</p>
+	            <img class= "icons" src="icons/likes.jpg" width= "250px" height="50px">
+	        </div>
+		</div>
+		<!------------right-content----------------------------------------------------------->
+	       <div id="right-content">
+	            <div id="upnext">
+	            	Up next
+	            </div>
+	            <div id="autoplay">
+	            	AUTOPLAY <img src="icons/autoplay.jpg" width= "50px" height="50px">
+	            </div>
+
+	            <div class="video">
+	                    <a href="#">
+	                        <div class="video-thumbnail">
+	                            <img src="icons/a.jpg">
+	                        </div>
+	                    </a>
+	                        <div class="metadata">
+	                            <span>ABC Song + More Nursery Rhymes & Kids Songs</span>
+	                            <div>Cocomelon - Nursery Rhymes</div>
+	                            <div>63M views</div>
+	                        </div>
+	              </div>
+	              <div class="video">
+	                    <a href="#">
+	                        <div class="video-thumbnail">
+	                            <img class="letters" src="icons/b.jpg">
+	                        </div>
+	                    </a>
+	                        <div class="metadata">
+	                            <span>ABC Song + More Nursery Rhymes & Kids Songs</span>
+	                            <div>Cocomelon - Nursery Rhymes</div>
+	                            <div>63M views</div>
+	                        </div>
+	              </div>
+	              <div class="video">
+	                    <a href="#">
+	                        <div class="video-thumbnail">
+	                            <img class="letters" src="icons/c.jpg">
+	                        </div>
+	                    </a>
+	                        <div class="metadata">
+	                            <span>ABC Song + More Nursery Rhymes & Kids Songs</span>
+	                            <div>Cocomelon - Nursery Rhymes</div>
+	                            <div>63M views</div>
+	                        </div>
+	              </div>
+	       </div>
 	</div>
-	<div class="search">
-	       <form action="#">
-                <input type="text" placeholder="Search" name="search">
-                <button type="submit">
-                    <svg>
-                        <path
-                            d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">
-                        </path>
-                    </svg>
-                </button>
-            </form>
-    </div>
-	<div class="right-icons">
-		<img class= "icons" src="icons/add.jpg" width= "20px" height="20px">
-		<img class= "icons" src="icons/more.jpg" width= "20px" height="20px">
-		<img class= "icons" src="icons/messages.jpg" width= "20px" height="20px">
-		<img class= "icons" src="icons/notification.jpg" width= "20px" height="20px">	
-	</div>
-<!--contents--------------------------------------------------------> 
-<!--left-content--------------------------------------------------------->   
-<div id="content">
-	<div id="left-content">
-        <iframe width="790" height="430" src="https://www.youtube.com/embed/1xiU5bkuGnM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p class="title-video">Alphabet Song | A to Z for Children | Collection of Kindergarten Songs</p> <br>
-        <div class="likes">
-            <p>262,000 views</p>
-            <img class= "icons" src="icons/likes.jpg" width= "250px" height="50px">
-        </div>
-	</div>
-	<!------------right-content----------------------------------------------------------->
-       <div id="right-content">
-            <div id="upnext">
-            	Up next
-            </div>
-            <div id="autoplay">
-            	AUTOPLAY <img src="icons/autoplay.jpg" width= "50px" height="50px">
-            </div>
-
-            <div class="video">
-                    <a href="#">
-                        <div class="video_thumbnail">
-                            <img src="icons/a.jpg">
-                        </div>
-                    </a>
-                        <div class="metadata">
-                            <span>ABC Song + More Nursery Rhymes & Kids Songs</span>
-                            <div>Cocomelon - Nursery Rhymes</div>
-                            <div>63M views</div>
-                        </div>
-                        <div id="img-letters">
-                <img class="letters" src="icons/b.jpg">
-                <img class="letters" src="icons/c.jpg">
-              </div>
-
-
-
-       </div>
-</div>
 </body>
 </html>
