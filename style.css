@@ -12,8 +12,9 @@ body {
 
 .search form {
     height: 32px;
-    margin: 0 40px;
+    margin: 0 0px;
     display: flex;
+    width: 100%;
     grid-template-columns: auto 65px;
     justify-content: stretch;
 }
@@ -23,7 +24,8 @@ body {
     font-size: 14px;
     border: 1px solid rgb(177, 177, 177);
     border-radius: 2px 0 0 2px;
-    float: left;
+    width: 100%;
+    vertical-align: middle;
 }
 
 .search form button {
@@ -55,8 +57,12 @@ svg {
 }
 
 .search{
-	display: flex;
+	display: inline-flex;
 	align-items: center;
+    width: 40vw;
+    margin-right: 5%;
+    margin-left: 10%;
+    margin-top: 0%;
 }
 
 .right-icons{
@@ -98,12 +104,37 @@ svg {
 
 #up-next-autoplay{
     display: flex;
-    width: 440px;
+    width: 100%;
     justify-content: space-between;
     font-family: Roboto, Arial, sans-serif;
     font-size: 16px;
     line-height: 20px; 
     color: #0d0d0d;    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.video-content{
+    display: inline-flex;
+}
+
+.metadata{
+    padding-left: 5%;
+}
+
+.metadata span{
+    font-weight: bold;
+}
+
+.metadata div{
+    font-weight: normal;
+    color: grey;
+}
+
+.video-thumbnail{
+    margin-bottom: 8px;
 }
 
 h3 {
