@@ -1,6 +1,13 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
 .nav-bar{
-    display: flex;
+    display: block;
+    flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 2%;
 }
 
 .search form {
