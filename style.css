@@ -147,11 +147,11 @@ h3 {
     display: inline-flex;
     justify-content: space-between;
     width: 790px;
-
 }
 .imgs-letters {
     display: flex;
     flex-direction: row;
+    margin: 5px 0;
 
 }
 
