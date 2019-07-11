@@ -78,6 +78,9 @@ svg {
 #content{
     display: flex;
     justify-content: center;
+    margin: 5px;
+    padding: 2px;
+    overflow: hidden;
 }
 
 #left-content{
@@ -89,6 +92,17 @@ svg {
     padding-top: 25px;
     margin-left: 25px;
     padding-right: 25px;
+}
+
+.line { 
+	width: 60vw; 
+	height: 1px; 
+	background-color: lightgrey;
+	margin-bottom: 5px;
+}
+
+.channel-information{
+	display: flex;
 }
 
 #right-content{
@@ -110,31 +124,6 @@ svg {
     font-size: 16px;
     line-height: 20px; 
     color: #0d0d0d;    
-}
-
-a{
-    text-decoration: none;
-    color: black;
-}
-.video-content{
-    display: inline-flex;
-}
-
-.metadata{
-    padding-left: 5%;
-}
-
-.metadata span{
-    font-weight: bold;
-}
-
-.metadata div{
-    font-weight: normal;
-    color: grey;
-}
-
-.video-thumbnail{
-    margin-bottom: 8px;
 }
 
 h3 {
@@ -170,5 +159,8 @@ h3 {
     line-height: 18px;
     margin: 0 0 0 10px;
     color: lightgray;
+}
 
+#img-videos{
+	cursor: pointer;
 }
