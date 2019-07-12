@@ -200,7 +200,6 @@ h3 {
     display: inline-flex;
     justify-content:flex-start;   
 }
-
 .comments{
     font-family: Roboto, Arial, sans-serif;
     font-size: 16px;
@@ -209,5 +208,9 @@ h3 {
     color: #111111; 
     margin-right: 70px;  
     margin-top: 2px; 
+}
 
+.add-comment {
+    display: inline-flex;
+    justify-content:flex-start;
 }
