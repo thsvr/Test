@@ -132,6 +132,7 @@ svg {
 
 .information p, #channel-link p:last-child{
 	color: grey;
+	font-weight: bold;
 }
 
 #channel-link{
@@ -190,7 +191,7 @@ h3 {
     text-align: start;
     line-height: 18px;
     margin: 0 0 0 10px;
-    color: lightgray;
+    color: gray;
 }
 
 #img-videos{
