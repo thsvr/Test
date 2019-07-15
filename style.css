@@ -207,4 +207,5 @@ h3 {
 iframe {
     width: 790px;
     height: 480px;
+    frameborder: 0;
 }
