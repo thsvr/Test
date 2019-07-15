@@ -80,6 +80,16 @@ svg {
     margin-left: 25px;
     padding-right: 25px;
 }
+.views{
+	margin-top: 0px;
+}
+.social{
+	display: flex;
+	flex-direction: row;
+	height: 40px;
+	justify-content: space-between;
+	width: 370px;
+}
 .line { 
 	width: 61vw; 
 	height: 1px; 
