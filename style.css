@@ -8,31 +8,33 @@ body {
     justify-content: space-between;
     margin-bottom: 2%;
 }
-.search form {
+.search {
     height: 32px;
-    margin: 0 0px;
+    padding-top: 22px;
     display: flex;
     width: 100%;
     grid-template-columns: auto 65px;
     justify-content: stretch;
 }
-.search form input {
+.search input {
     padding-left: 10px;
     font-size: 14px;
     border: 1px solid rgb(177, 177, 177);
     border-radius: 2px 0 0 2px;
     width: 100%;
     vertical-align: middle;
+    height:30px;
 }
-.search form button {
-    border-radius: 0 2px 2px 0;
+.search button {
+    border-radius: 0 10px 10px 0;
     background: rgb(247, 247, 247);
     border: 1px solid rgb(175, 175, 175);
     border-left: none;
     border-radius: 0 2px 2px 0;
     cursor: pointer;
+    height: 34px;
 }
-.search form button a {
+.search button a {
     margin: 0;
     height: 20px;
     width: 20px;
